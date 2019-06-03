@@ -73,9 +73,9 @@ nav a{
     display: flex;
     margin: 0 auto;
     width: 100%;
-    height: 3000px;
+    
     padding-top: 5%;
-    background-color: darkcyan;
+    
     display: block;
     
     
@@ -180,6 +180,7 @@ nav a{
     justify-content: space-around;
     margin: 0 auto;
     max-width: 300px;
+    
 }
 #secont .container img { 
     margin: 0 auto;
@@ -191,8 +192,95 @@ nav a{
 
 /* Third content area */
 
-#thirdcont {
+#thirdcont { 
     display: flex;
     margin: 0 auto;
+    margin-top: 250px;
+    width: 1200px;
+    flex-direction: column;
+    height: 500px;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg") ;
+}
+
+
+.thirdtext { width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+}
+
+.thirdtext h2 { font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+
+}
+
+/* Container section */
+
+#thirdcont .containers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#thirdcont .container { background-color: black;
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+
+}
+
+#thirdcont .container h4 { font-family: Arial, Helvetica, sans-serif;
+ color: seashell;
+ font-size: 25px;
+}
+
+#thirdcont .container p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+/* The Pre-Footer */
+
+#prefoot {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    text-align: center;
+}
+
+#prefoot h2 { font-family: Arial, Helvetica, sans-serif;
+    color: seashell; 
+    font-size: 30px;
+
+}
+
+#prefoot h5 {
+    font-size: 18px;
+    
+    
+}
+
+/* Footer */
+
+#footer h5 { margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: seashell;
+
 }
